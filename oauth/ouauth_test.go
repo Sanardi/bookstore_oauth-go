@@ -1,12 +1,13 @@
 package oauth
 
 import (
-	"testing"
-	"github.com/stretchr/testify/assert"
-	"net/http"
 	"fmt"
+	"net/http"
 	"os"
+	"testing"
+
 	"github.com/mercadolibre/golang-restclient/rest"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestMain(m *testing.M) {
